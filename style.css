@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgb(0,0,0,0.5)50%,rgb(0,0,0,0.5)50%);
+    background-image: url("6.2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.cls1{d
+    width: 1200px;
+    height:75px;
+    margin :auto;
+}
+.cls2{
+    width: 100%;
+    text-align: center;
+    /* float: left; */
+    height:70px;
+}
+.logo{
+    color: darkmagenta;
+    font-size: 70px;
+    font-family:Zilla Slab;
+
+    /* padding-left: 40px;
+    float: left; */
+    padding-top: 15;
+}
+.menu{
+    width:100%;
+    /* float:center; */
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+ 
+
+
+
+ul li a:hover{
+    color: white;
+}
+
+.search{
+    width:100%;
+    float:left;
+    margin-left: 300px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 400px;
+    height: 40px;
+    background: transparent;
+    border:1px solid aliceblue;
+    margin-top: 13px;
+    color:black;
+    border-right: none;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background:aliceblue;
+    border: 2px solid aliceblue;
+    margin-top: 13px;
+    color:black;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    /* color: grey; */
+    position: relative;
+
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Lucida Sans';
+    letter-spacing: 1.3px;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 55px;
+    padding-left: 22px;
+    margin-top: 300px;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;  
+    height: 40px;
+    background: gainsboro;
+    border:none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    text-decoration: none;
+    
+}
+.content .cn{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+.cn:hover{
+    background-color: gray;
+}
+.content span{
+    color: honeydew;
+    font-size: 70px;
+
+}

@@ -1,0 +1,5 @@
+patient number:10
+ name:jyoti
+ address:surat
+ age:20
+ gender:female
